@@ -28,12 +28,12 @@
     		<artifactId>postgresql</artifactId>
     		<scope>runtime</scope>
 		</dependency>
-		<?ignore
+		<!-- AWS Secrets Manager  -->
 		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
+    		<groupId>com.amazonaws.secretsmanager</groupId>
+    		<artifactId>aws-secretsmanager-jdbc</artifactId>
+    		<version>1.0.3</version>
 		</dependency>
-		?>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
